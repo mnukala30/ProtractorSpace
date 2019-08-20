@@ -11,7 +11,7 @@ describe('angularjs homepage', function() {
 		    // Find the element with binding matching 'yourName' - this will
 		    // find the <h1>Hello {{yourName}}!</h1> element.
 		    var greeting = element(by.binding('yourName'));
-
+			console.log("Made changes to test 2 git branches");
 		    // Assert that the text element has the expected value.
 		    // Protractor patches 'expect' to understand promises.
 
