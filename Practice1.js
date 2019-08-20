@@ -14,7 +14,7 @@ describe('angularjs homepage', function() {
 			console.log("Made changes to test 2 git branches");
 		    // Assert that the text element has the expected value.
 		    // Protractor patches 'expect' to understand promises.
-
+			console.log("made changes to check pull request");
 		    expect(greeting.getText()).toEqual('Hello Julie!');
 		  });
 		});
